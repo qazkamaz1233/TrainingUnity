@@ -1,0 +1,44 @@
+# Временные папки Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Автоматически генерируемые файлы (IDE)
+syntax: glob
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Кэш
+.vs/
+.gradle/
+
+# Специфические папки
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Исключения
+!/[Aa]ssets/**/*.meta
+!*.dll
+!*.obj
+
+# Удалите отсюда ProjectSettings и Packages!
+# Оставляем только те, что реально временные:
+Library/*
+UserSettings/*
+Logs/*
